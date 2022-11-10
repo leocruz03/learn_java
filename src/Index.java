@@ -37,5 +37,35 @@ public class Index
 
         // booleanos
         boolean isActive = true;
+
+        /* Operadores */
+
+        // aritmeticos
+        System.out.println(num_one + decimal_two);
+        System.out.println(num_two - decimal_one);
+        System.out.println(num_three * num_four);
+        System.out.println(num_three / num_four);
+        System.out.println(num_two % decimal_one);
+        
+        // incremento, decremento y asignación aritmetica
+        System.out.println(num_two++);
+        System.out.println(num_two--);
+        System.out.println(num_two += num_one);
+        System.out.println(num_two -= num_one);
+        System.out.println(num_two *= num_one);
+        System.out.println(num_two /= num_one);
+
+        // lógicos
+        System.out.println(num_one == decimal_two);
+        System.out.println(num_one < decimal_two);
+        System.out.println(num_one > decimal_two);
+        System.out.println(num_one <= decimal_two);
+        System.out.println(num_one >= decimal_two);
+        System.out.println(num_one != decimal_two);
+        System.out.println(num_one < decimal_two && num_one > decimal_two);
+        System.out.println(num_one > decimal_two || num_one < decimal_two);
+
+        /* Concatenar */
+        System.out.println("el nombre: " + str_one + " contiene la letra: " + char_one);
     }
 }
