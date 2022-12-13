@@ -25,4 +25,9 @@ public class Functions
     private static String mundo() {
         return "Mundo";
     }
+
+    /* 
+        el entorno en las funciones, cuando una variable es creada dentro de una función ese es su entorno, o sea solo
+        existe dentro de esa función y no en el entorno de afura de la función
+    */
 }

@@ -37,6 +37,7 @@ public class Index
 
         // booleanos
         boolean isActive = true;
+        System.out.println(isActive);
 
         /* Operadores */
 
